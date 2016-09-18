@@ -1,20 +1,21 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 export default (props) => {
 	return(
 		<div className="header-component">
-			<nav className="navbar navbar-default">
-			  <div className="container-fluid">
-			    <div className="navbar-header">
-			      <a className="navbar-brand" href="/">Alexandru Toea</a>
-			    </div>
-			    <ul className="nav navbar-nav navbar-right">
-			      <li><a href="#">GITHUB</a></li>
-			      <li><a href="#">LINKEDIN</a></li> 
-			      <li><a href="#">EMAIL</a></li> 
-			    </ul>
-			  </div>
-			</nav>
+			<div className="navigation-exterior">
+				<div className="navigation-interior">
+					<div className="navigation-link">
+						<Link to="/"><span>Site</span></Link>
+						<span className="subtitle">+ Some subtitle</span>
+					</div>
+					<div className="navigation-links">
+						<a className="navigation-link" href="#" target="_blank">Github</a>
+						<a className="navigation-link" href="#" target="_blank">LinkedIn</a>
+					</div>
+				</div>
+			</div>
 		</div>
 	);
 } 

@@ -6,11 +6,12 @@ export default (props) => {
 	return(
 		<div className="main-component">
 			<ReactCSSTransitionGroup 
-				transitionName="appear"
+          transitionName="example" 
 				transitionEnterTimeout={500} 
-				transitionLeaveTimeout={500} >
-				{React.cloneElement(props.children, {key: location.pathname})}
-
+				transitionLeaveTimeout={300}
+          		transitionAppear={true} 
+				transitionAppearTimeout={500}>
+				{React.cloneElement(props.children, { key: location.pathname })}
 			</ReactCSSTransitionGroup>
 		</div>
 	);
