@@ -24,7 +24,7 @@ export default (props) => {
 						<Link to={`/project/`}>
 							<div className="overlay-title">{props.project.title}</div>
 						</Link>
-						{description ? renderDescription(description) : ""}	
+						{description ? renderDescription(description) : null}	
 					</div>
 				</div>
 			</div> 

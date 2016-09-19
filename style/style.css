@@ -1,4 +1,7 @@
 body { 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #73787d;
 }
 
 /*Css Transition groups*/
@@ -34,7 +37,52 @@ body {
 p {
     font-size: 1em;
     line-height: 2em;
-    max-width: 100%
+    max-width: 100%;
+}
+
+ul.breadcrumb {
+    padding: 8px 0;
+    list-style: none;
+    background-color: #fafafa;
+}
+ul.breadcrumb li {display: inline;}
+ul.breadcrumb li+li:before {
+    padding: 8px;
+
+    color: black;
+    content: "/\00a0";
+}
+ul.breadcrumb li a {color: #73787d; font-size: 1em; text-decoration: underline;}
+ul.breadcrumb li a:hover {color: #809bce; font-size: 1em;}
+
+ul.breadcrumb li span {font-size: 1em;}
+
+.btn {
+    padding: 8px 12px;
+    font-size: .6em;
+    text-transform: uppercase;
+    border-radius: 4px;
+    letter-spacing: .4px;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+    margin: 0 2px;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn-gray {
+    background-color: #eaedf1;
+    color: #4e5255;
+    cursor: default;
+}
+
+.btn-blue {
+    background-color: #809bce;
+    color: #fafafa;
+    cursor: pointer;
 }
 
 
@@ -90,7 +138,7 @@ p {
 }
 
 .brief,
-.project-hero {
+.hero {
     -webkit-box-flex: 1;
     -webkit-flex: 1 1 880px;
     -ms-flex: 1 1 880px;
@@ -102,7 +150,7 @@ p {
 
 
 .brief-image-wrap,
-.project-hero-image-wrap {
+.hero-image-wrap {
     cursor: auto;
     height: 100%;
     overflow: hidden;
@@ -111,7 +159,7 @@ p {
 }
 
 .brief-image-wrap:hover>.brief-image-overlay,
-.project-hero-image-overlay {
+.hero-image-overlay {
     opacity: 1
 }
 
@@ -133,7 +181,7 @@ p {
     width: 100%
 }
 
-.project-hero-image {
+.hero-image {
     height: 100%;
     width: 100%
 }
@@ -154,18 +202,18 @@ p {
     opacity: 0
 }
 
-.project-hero-image-overlay {
+.hero-image-overlay {
     position: absolute;
     top: 0;
     left: 0;
-    background: rgba(78, 82, 85, .2);
+    background: rgba(78, 82, 85, .5);
     width: 100%;
     height: 100%
 }
 
 .overlay-title,
 .brief-image-overlay,
-.project-hero-image-overlay {
+.hero-image-overlay {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -199,7 +247,8 @@ p {
     margin: 10px;
     font-size: .9em;
     text-transform: uppercase;
-    letter-spacing: .5px
+    letter-spacing: .5px;
+    text-align: center;
 }
 
 .overlay-description {
@@ -218,6 +267,67 @@ p {
 }
 
 /*Project styles*/
+.project-brief div {
+    padding: 16px;
+}
+
+.tags {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 880px;
+
+}
+
+.tag {
+    margin-right: 36px;
+    padding: 12px 0;
+}
+
+.tag-title {
+    text-transform: uppercase;
+    color: #cbcbcb;
+    font-size: .75em;
+    font-weight: 500;
+    margin-bottom: 6px;
+    letter-spacing: 1px;
+    padding: 0 2px;
+}
+
+.tag-wrapper {
+     display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.tag-content {
+    padding: 8px 12px;
+    font-size: .6em;
+    text-transform: uppercase;
+    border-radius: 4px;
+    letter-spacing: .4px;
+    background-color: #eaedf1;
+    color: #4e5255;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+}
+
+
 
 /*Footer*/
 .footer-component {
@@ -262,8 +372,8 @@ p {
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    width: 880px;
-    max-width: 880px
+    width: 912px;
+    max-width: 912px
 }
 
 .navigation-links {
@@ -289,7 +399,7 @@ p {
     text-transform: uppercase;
     letter-spacing: .4px;
     cursor: pointer;
-    margin: 0 5px;
+    padding: 0 16px;
 }
 
 a {
