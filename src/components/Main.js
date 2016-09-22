@@ -13,5 +13,6 @@ export default (props) => {
 				{props.children}
 			</RouteTransition>
 		</div>
+		
 	);
 }
