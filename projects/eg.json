@@ -1,0 +1,32 @@
+{
+	"title": "Entrepreneurial Giving",
+	"tags": [{
+			"title": "Type",
+			"vaules": ["Site"]
+		}, {
+			"title": "Tech",
+			"vaules": ["Wordpress", "Google Apps", "Documents"]
+		}, {
+			"title": "more",
+			"vaules": ["hello"]
+		}
+	],
+	"links": [{
+			"site": "Github",
+			"URL": "google.co.uk"
+		}, {
+			"site": "web",
+			"URL": "yahoo.com"
+		}
+	],
+	"description": "Complex presentation site",
+	"splash": "../img/eg-laptop.png",
+	"sections": [{
+		"title": "Overview", 
+		"content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce malesuada elit vestibulum malesuada euismod. Mauris ligula enim, euismod non diam vitae, sagittis aliquet quam. Phasellus tincidunt, augue sed pulvinar vehicula, orci lectus pulvinar ante, id blandit velit nisl ut tellus. Sed felis est, tempus non neque pellentesque, tempor convallis nisl."
+		}, {
+		"title": "Details", 
+		"content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce malesuada elit vestibulum malesuada euismod. Mauris ligula enim, euismod non diam vitae, sagittis aliquet quam. Phasellus tincidunt, augue sed pulvinar vehicula, orci lectus pulvinar ante, id blandit velit nisl ut tellus. Sed felis est, tempus non neque pellentesque, tempor convallis nisl."
+		}
+	]
+}

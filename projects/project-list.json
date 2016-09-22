@@ -1,0 +1,8 @@
+{
+"list":[
+		{"URL": "eg", "title": "EG", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce malesuada elit vestibulum malesuada euismod. Mauris ligula enim, euismod non diam vitae, sagittis aliquet quam. Phasellus tincidunt, augue sed pulvinar vehicula, orci lectus pulvinar ante, id blandit velit nisl ut tellus. Sed felis est, tempus non neque pellentesque, tempor convallis nisl.", "splash": "img/eg-laptop.png"},
+		{"URL": "2", "title": "Urbane", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce malesuada elit vestibulum malesuada euismod. Mauris ligula enim, euismod non diam vitae, sagittis aliquet quam. Phasellus tincidunt, augue sed pulvinar vehicula, orci lectus pulvinar ante, id blandit velit nisl ut tellus. Sed felis est, tempus non neque pellentesque, tempor convallis nisl.", "splash": "img/urbane-mobile.png"},
+		{"URL": "3", "title": "project 3", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce malesuada elit vestibulum malesuada euismod. Mauris ligula enim, euismod non diam vitae, sagittis aliquet quam. Phasellus tincidunt, augue sed pulvinar vehicula, orci lectus pulvinar ante, id blandit velit nisl ut tellus. Sed felis est, tempus non neque pellentesque, tempor convallis nisl.", "splash": "img/test.jpg"},
+		{"URL": "4", "title": "project 4", "splash": "img/test.jpg"}
+	]
+}

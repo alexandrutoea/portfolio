@@ -44,6 +44,7 @@ ul.breadcrumb {
     padding: 8px 0;
     list-style: none;
     background-color: #fafafa;
+    width: 100%;
 }
 ul.breadcrumb li {display: inline;}
 ul.breadcrumb li+li:before {
@@ -67,6 +68,7 @@ ul.breadcrumb li span {font-size: 1em;}
     -ms-transform: none;
     transform: none;
     margin: 0 2px;
+    font-size: 0.8em;
 }
 
 .btn:hover {
@@ -85,6 +87,13 @@ ul.breadcrumb li span {font-size: 1em;}
     cursor: pointer;
 }
 
+.btn-blue a:visited {color: #fafafa;}
+
+.loading {
+    background-color: red;
+    height: 912px;
+    width: 912px;
+}
 
 /*Components*/
 
@@ -231,6 +240,10 @@ ul.breadcrumb li span {font-size: 1em;}
     align-items: center;
 }
 
+.brief-image-overlay .overlay-title {
+    opacity: 0.8;
+}
+
 .overlay-title,
 .overlay-description {
     -webkit-transform: translateY(-10px);
@@ -255,8 +268,8 @@ ul.breadcrumb li span {font-size: 1em;}
     color: #000;
     opacity: 0.8;
     padding: 50px;
-    height: 50%;
-    width: 50%;
+    height: 160px;
+    width: 28%;
     border-radius: 10px;
     font-size: .8em;
 }
@@ -267,6 +280,11 @@ ul.breadcrumb li span {font-size: 1em;}
 }
 
 /*Project styles*/
+.project-details {
+    width: 912px;
+    max-width: 912px;
+}
+
 .project-brief div {
     padding: 16px;
 }
@@ -373,7 +391,7 @@ ul.breadcrumb li span {font-size: 1em;}
     -ms-flex-pack: justify;
     justify-content: space-between;
     width: 912px;
-    max-width: 912px
+    max-width: 912px;
 }
 
 .navigation-links {
@@ -399,7 +417,6 @@ ul.breadcrumb li span {font-size: 1em;}
     text-transform: uppercase;
     letter-spacing: .4px;
     cursor: pointer;
-    padding: 0 16px;
 }
 
 a {
