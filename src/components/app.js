@@ -3,14 +3,16 @@ import React, { Component } from 'react';
 import routes from '../routes';
 import Header from './Header';
 import Footer from './Footer';
-import Main from './Main';
+import RouteHandler from './RouteHandler';
+
+import styles from './styles/app.css'
 
 export default class App extends Component {
   render() {
     return (
-    	<div className="app-component">
+    	<div className={styles.app}>
 			<Header />
-			<Main>{this.props.children}</Main>
+			<RouteHandler>{this.props.children}</RouteHandler>
 			<Footer />
     	</div>
     );

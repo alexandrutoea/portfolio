@@ -2,11 +2,10 @@ import React, { Component, PropTypes } from 'react';
 import { Link } from 'react-router';
 import axios from 'axios';
 
-import ProjectBrief from './ProjectBrief';
+import Breadcrumbs from './Breadcrumbs';
 import Tags from './Tags';
 import Sections from './Sections';
-
-
+import Loading from './Loading';
 
 class ProjectDetails extends Component {
 	static contextTypes = {
@@ -18,6 +17,7 @@ class ProjectDetails extends Component {
 
 		this.state = {
 			project: {},
+			loaded: 0,
 			error: ""
 		}
 	}
@@ -27,7 +27,7 @@ class ProjectDetails extends Component {
 
 		axios.get(`/projects/${this.props.params.projectName}.json`)
 			.then(function (response) {
-				_this.setState({project: response.data});
+				_this.setState({project: response.data , loaded: 1});
 			})
 	  		.catch(function (error) {
 	  			_this.setState({error: "Project does not exist or cannot be loaded"});
@@ -35,27 +35,20 @@ class ProjectDetails extends Component {
 	}
 
 	render(){
-		const project = this.state.project;
-
 		if(this.state.error) {
 			return (
-				<div className="project-details">
-				<ul className="breadcrumb">
-					<li><Link className="title" to="/">Projects</Link></li>
-				</ul>
 				<div>{this.state.error}</div>
-				</div>
 			);
 		}
 
-		if(!project.title) {return <div>Loading</div>; }
+		if (!this.state.loaded) { return <Loading />; }
+
+		const project = this.state.project;
 
 		return(
 			<div className="project-details">
-					<ul className="breadcrumb">
-					  <li><Link className="title" to="/">Projects</Link></li>
-					  <li><span className="title">{project.title}</span></li>
-					</ul>
+			
+					<Breadcrumbs title={project.title} />
 
 					<Tags tags={project.tags} links={project.links? project.links : null} />
 

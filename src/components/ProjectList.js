@@ -21,8 +21,7 @@ class ProjectList extends Component {
 
 		axios.get(`/projects/project-list.json`)
 			.then(function (response) {
-				_this.setState({list: response.data.list});
-				_this.setState({loaded: 1});
+				_this.setState({list: response.data.list, loaded: 1});
 			})
 	  		.catch(function (error) {
 	  			_this.setState({error: "Project list cannot be loaded"});

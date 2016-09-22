@@ -1,0 +1,32 @@
+/* 
+	Styles for component:; App.js
+	Contains general style rules
+*/
+
+.app {
+	font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #73787d;
+}
+
+.app p {
+    line-height: 2em;
+    max-width: 100%;
+}
+
+.app a {
+	color: #73787d; 
+	font-size: 1em;
+	text-decoration: none;
+}
+
+.app a:hover {
+	color: #809bce; 
+	font-size: 1em;
+}
+
+@media screen and (max-width:640px) {
+    .app {
+        padding: 0 8px;
+    }
+}

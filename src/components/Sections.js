@@ -10,7 +10,7 @@ const renderSection = (section) => {
 }
 
 export default (props) => {
-	if (!props.sections) { return <div>No sections</div>; }
+	if (!props.sections) { return; }
 
 	return(
 		<div className="sections">

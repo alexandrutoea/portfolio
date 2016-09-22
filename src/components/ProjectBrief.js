@@ -1,33 +1,40 @@
 import React from 'react';
 import { Link } from 'react-router';
 
+import styles from './styles/project-brief.css'
+
 const renderDescription = (desc, URL) => {
+	if(!desc) { return; }
+
 	return (
-		<div className="overlay-description">
+		<div className={styles.overlayDescription}>
 			<p>{desc}</p>
-			<div className="btn btn-blue">
-				<Link to={`/project/${URL}`}>Open Project</Link>
-			</div>
+			<Link to={`/project/${URL}`}>
+				<div className="btn btn-blue">
+					Open Project
+				</div>
+			</Link>
 		</div>
 	);
 }
 
 export default (props) => {
-	if(!props.project) {return(<div>Error</div>);}
+	if(!props.project) { return; }
 
-	const description = props.project.description;
-	const URL = props.project.URL;
+	const project = props.project;
+	const description = project.description;
+	const URL = project.URL;
 
 	return (
 		<div className="brief-component">
-			<div className="brief">
-				<div className="brief-image-wrap">
-					<img className="brief-image" src={props.project.splash} alt="Test image"/>
-					<div className="brief-image-overlay">
+			<div className={styles.brief}>
+				<div className={styles.briefImageWrap}>
+					<img className={styles.briefImage} src={project.splash} alt={project.title}/>
+					<div className={styles.briefImageOverlay}>
 						<Link to={`/project/${URL}`}>
-							<div className="overlay-title">{props.project.URL}</div>
+							<div className={styles.overlayTitle}>{project.title}</div>
 						</Link>
-						{description ? renderDescription(description, URL) : null}	
+						{renderDescription(description, URL)}	
 					</div>
 				</div>
 			</div> 

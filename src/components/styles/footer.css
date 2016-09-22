@@ -1,0 +1,36 @@
+/*
+	Styles for component: Footer
+*/
+
+.footerOuter {
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	background: hsla(0, 0%, 100%, .95);
+	border-top: 1px solid #eaedf1;
+	width: 100%;
+	height: 72px;
+}
+
+.footerOuter, .footerInner {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-flow: row nowrap;
+	-ms-flex-flow: row nowrap;
+	flex-flow: row;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+.footerInner {
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	width: 100%;
+	max-width: 912px;
+}

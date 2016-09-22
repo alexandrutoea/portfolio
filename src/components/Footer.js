@@ -1,10 +1,14 @@
 import React from 'react';
 
+import styles from './styles/footer.css';
+
 export default (props) => {	
 	return(
 		<div className="footer-component">
-			<div className="footer">
-				This footer will always be positioned at the bottom of the page, but <strong>not fixed</strong>.
+			<div className={styles.footerOuter}>
+				<div className={styles.footerInner}>
+					<p>Copyright © 2016 <strong>Alexandru Toea</strong>.</p>
+				</div>
 			</div>
 	    </div>
 	);

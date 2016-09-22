@@ -1,0 +1,82 @@
+/*
+	Styles for component: Header
+*/
+
+.headerOuter {
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	background: hsla(0, 0%, 100%, .95);
+	border-bottom: 1px solid #eaedf1;
+	width: 100%;
+	height: 72px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000
+}
+
+.headerOuter, .headerInner {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-flow: row nowrap;
+	-ms-flex-flow: row nowrap;
+	flex-flow: row;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+.headerInner {
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	width: 100%;
+	max-width: 912px;
+}
+
+.headerInner a {
+	padding: 0 6px;
+	font-size: 0.8em!important;
+}
+
+.headerLinks {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-flow: row nowrap;
+	-ms-flex-flow: row nowrap;
+	flex-flow: row;
+	-webkit-box-pack: start;
+	-webkit-justify-content: flex-start;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+.headerLink {
+	text-transform: uppercase;
+	letter-spacing: .4px;
+	cursor: pointer;
+}
+
+@media screen and (max-width:640px) {
+	.headerInner a {
+		padding: 0 8px;
+		font-size: 0.7em!important;	
+	}
+
+	.subtitle {
+		display: none;
+	}
+}
