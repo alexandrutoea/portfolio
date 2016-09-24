@@ -5,6 +5,7 @@ import axios from 'axios';
 import Breadcrumbs from './Breadcrumbs';
 import Tags from './Tags';
 import Sections from './Sections';
+import Galery from './Galery';
 import Loading from './Loading';
 
 class ProjectDetails extends Component {
@@ -69,6 +70,7 @@ class ProjectDetails extends Component {
 
 					<div>
 						Galery goes here
+						<Galery photos={project.images} />
 					</div>
 			</div>
 		);

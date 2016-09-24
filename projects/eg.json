@@ -28,5 +28,31 @@
 		"title": "Details", 
 		"content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce malesuada elit vestibulum malesuada euismod. Mauris ligula enim, euismod non diam vitae, sagittis aliquet quam. Phasellus tincidunt, augue sed pulvinar vehicula, orci lectus pulvinar ante, id blandit velit nisl ut tellus. Sed felis est, tempus non neque pellentesque, tempor convallis nisl."
 		}
+	],
+	"images": [{
+		"src": "../img/eg/eg-laptop_small.png",
+		"width": 681,
+		"height": 1024,
+		"aspectRatio": 1.5,
+		"lightboxImage":{
+			"src": "../img/eg/eg-laptop_large.png"
+		}
+		}, {
+		"src": "../img/eg/eg-mobile_small.png",
+		"width": 681,
+		"height": 1024,
+		"aspectRatio": 1.5,
+		"lightboxImage":{
+			"src": "../img/eg/eg-mobile_large.png"
+		}
+		}, {
+		"src": "../img/eg/eg-tablet_small.png",
+		"width": 681,
+		"height": 1024,
+		"aspectRatio": 1.5,
+		"lightboxImage":{
+			"src": "../img/eg/eg-tablet_large.png"
+		}
+		}
 	]
 }
