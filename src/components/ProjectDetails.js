@@ -5,8 +5,10 @@ import axios from 'axios';
 import Breadcrumbs from './Breadcrumbs';
 import Tags from './Tags';
 import Sections from './Sections';
-import Galery from './Galery';
+import Gallery from './Gallery';
 import Loading from './Loading';
+
+import styles from './styles/project-details.css';
 
 class ProjectDetails extends Component {
 	static contextTypes = {
@@ -38,7 +40,10 @@ class ProjectDetails extends Component {
 	render(){
 		if(this.state.error) {
 			return (
-				<div>{this.state.error}</div>
+				<div>
+					<p>{this.state.error}</p>
+					<Link to="/">Return to home page.</Link>
+				</div>
 			);
 		}
 
@@ -47,31 +52,31 @@ class ProjectDetails extends Component {
 		const project = this.state.project;
 
 		return(
-			<div className="project-details">
-			
-					<Breadcrumbs title={project.title} />
+			<div className="project-details-component">
+				<div className={styles.projectDetails}>
+				
+						<Breadcrumbs title={project.title} />
 
-					<Tags tags={project.tags} links={project.links? project.links : null} />
+						<Tags tags={project.tags} links={project.links? project.links : null} />
 
-					<div className="project-brief">
 						<p>{project.description}</p>
-					</div>
-					
-					<div className="hero">
-						<div className="hero-image-wrap">
-							<img className="hero-image" src={project.splash} alt="Test image"/>
-							<div className="hero-image-overlay">
-								<div className="overlay-title">{project.title}</div>
+												
+						<div className={styles.hero}>
+							<div className={styles.heroImageWrap}>
+								<img className={styles.heroImage} src={project.splash} alt={project.title}/>
+								<div className={styles.heroImageOverlay}>
+									<div className={styles.overlayTitle}>{project.title}</div>
+								</div>
 							</div>
 						</div>
-					</div>
 
-					<Sections sections={project.sections} />
+						<Sections sections={project.sections} />
 
-					<div>
-						Galery goes here
-						<Galery photos={project.images} />
-					</div>
+						<div>
+							Galery goes here
+							<Gallery photos={project.images} />
+						</div>
+				</div>
 			</div>
 		);
 	}

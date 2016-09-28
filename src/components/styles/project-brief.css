@@ -6,11 +6,11 @@
 
 .brief {
     -webkit-box-flex: 1;
-    -webkit-flex: 1 1 880px;
-    -ms-flex: 1 1 880px;
-    flex: 1 1 880px;
+    -webkit-flex: 1 1 912px;
+    -ms-flex: 1 1 912px;
+    flex: 1 1 912px;
     max-height: 704px;
-    max-width: 880px;
+    max-width: 912px;
     margin-bottom: 16px;
 }
 
@@ -19,7 +19,7 @@
     height: 100%;
     overflow: hidden;
     position: relative;
-    max-width: 880px;
+    max-width: 912px;
 }
 
 .briefImage {

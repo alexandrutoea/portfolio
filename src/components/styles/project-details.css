@@ -1,0 +1,84 @@
+/*
+	Styles for component: ProjectBrief
+	Displays an indepth description of the project and has multiple sections:
+		*Breadcrumbs (styled separately)
+		*Tags (styled separately)
+		*Title + hero
+		*Sections
+		*Gallery
+*/
+
+.projectDetails {
+    width: 100%;
+    max-width: 912px;
+}
+
+
+.hero {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 912px;
+    -ms-flex: 1 1 912px;
+    flex: 1 1 912px;
+    max-height: 704px;
+    max-width: 912px;
+    margin-bottom: 16px;
+}
+
+.heroImageWrap {
+    cursor: auto;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    max-width: 912px;
+}
+
+.heroImageOverlay {
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(78, 82, 85, .5);
+    width: 100%;
+    height: 100%
+}
+
+.heroImage {
+    height: 100%;
+    width: 100%
+}
+
+.overlayTitle,
+.heroImageOverlay {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.overlayTitle {
+    opacity: 0.8;
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+    background: #fff;
+    color: #4e5255;
+    height: 160px;
+    width: 160px;
+    border-radius: 80px;
+    margin: 10px;
+    font-size: .9em;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    text-align: center;
+}
