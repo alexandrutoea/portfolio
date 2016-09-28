@@ -4,12 +4,12 @@
 			"URL": "eg", 
 			"title": "EG", 
 			"description": "Entrepreneurial Giving (EG) is a campaign and network to introduce entrepreneurs to the benefits of purpose in business. This is a long-term campaign to change the way we think about philanthropy.", 
-			"splash": "img/eg-laptop.png"
+			"splash": "img/eg/eg-laptop_small.png"
 		}, {
 			"URL": "urbane", 
 			"title": "Urbane", 
 			"description": "URBANE is innovative mentoring platform, which helps companies train and retain a more connected workforce that is committed to their business strategy.", 
-			"splash": "img/urbane-mobile.png"
+			"splash": "img/urbane/urbane-mobile.png"
 		}
 	]
 }
