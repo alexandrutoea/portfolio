@@ -55,27 +55,24 @@ class ProjectDetails extends Component {
 			<div className="project-details-component">
 				<div className={styles.projectDetails}>
 				
-						<Breadcrumbs title={project.title} />
+					<Breadcrumbs title={project.title} />
 
-						<Tags tags={project.tags} links={project.links? project.links : null} />
+					<Tags tags={project.tags} links={project.links? project.links : null} />
 
-						<p>{project.description}</p>
-												
-						<div className={styles.hero}>
-							<div className={styles.heroImageWrap}>
-								<img className={styles.heroImage} src={project.splash} alt={project.title}/>
-								<div className={styles.heroImageOverlay}>
-									<div className={styles.overlayTitle}>{project.title}</div>
-								</div>
+					<p>{project.description}</p>
+											
+					<div className={styles.hero}>
+						<div className={styles.heroImageWrap}>
+							<img className={styles.heroImage} src={project.splash} alt={project.title}/>
+							<div className={styles.heroImageOverlay}>
+								<div className={styles.overlayTitle}>{project.title}</div>
 							</div>
 						</div>
+					</div>
 
-						<Sections sections={project.sections} />
+					<Sections sections={project.sections} />
 
-						<div>
-							Galery goes here
-							<Gallery photos={project.images} />
-						</div>
+					{project.images? <Gallery photos={project.images} />: ""}
 				</div>
 			</div>
 		);

@@ -10,7 +10,7 @@ export default (props) => {
 				<div className={styles.headerInner}>
 					<Link className={styles.headerLink} to="/">
 						Alexandru Toea
-						<span className={styles.subtitle}> + Some subtitle</span>
+						<span className={styles.subtitle}> ~ Web Development & Design</span>
 					</Link>
 					<div className={styles.headerLinks}>
 						<a className={styles.headerLink} href="#" target="_blank">Github</a>

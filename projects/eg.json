@@ -2,57 +2,75 @@
 	"title": "Entrepreneurial Giving",
 	"tags": [{
 			"title": "Type",
-			"vaules": ["Site"]
+			"vaules": ["WebSite", "Online community"]
 		}, {
-			"title": "Tech",
-			"vaules": ["Wordpress", "Google Apps", "Documents"]
-		}, {
-			"title": "more",
-			"vaules": ["hello"]
+			"title": "Used",
+			"vaules": ["Wordpress", "CSS", "Google Apps"]
 		}
 	],
 	"links": [{
-			"site": "Github",
-			"URL": "http://google.co.uk"
+			"site": "Web",
+			"URL": "http://entrepreneurialgiving.org/"
 		}, {
-			"site": "web",
-			"URL": "yahoo.com"
+			"site": "Design - Sophie Light",
+			"URL": "http://slightdesign.co.uk/"
 		}
 	],
-	"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec blandit ligula. Aliquam quis lacinia justo, vel congue risus. Nullam placerat eu enim vel suscipit. Duis mattis posuere lacinia.",
-	"splash": "../img/eg-laptop.png",
+	"description": "Entrepreneurial Giving (EG) is a campaign and network to introduce entrepreneurs to the benefits of purpose in business. This is a long-term campaign to change the way we think about philanthropy.",
+	"splash": "../img/eg/eg-laptop_small.png",
 	"sections": [{
 		"title": "Overview", 
-		"content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce malesuada elit vestibulum malesuada euismod. Mauris ligula enim, euismod non diam vitae, sagittis aliquet quam. Phasellus tincidunt, augue sed pulvinar vehicula, orci lectus pulvinar ante, id blandit velit nisl ut tellus. Sed felis est, tempus non neque pellentesque, tempor convallis nisl."
+		"content": "A platform designed to encourage entrepreneurs to pledge a percentage of their income to charity. The site is built around a customized WordPress theme, and revolves around creating a sense of community for people with a charitable interest."
 		}, {
-		"title": "Details", 
-		"content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce malesuada elit vestibulum malesuada euismod. Mauris ligula enim, euismod non diam vitae, sagittis aliquet quam. Phasellus tincidunt, augue sed pulvinar vehicula, orci lectus pulvinar ante, id blandit velit nisl ut tellus. Sed felis est, tempus non neque pellentesque, tempor convallis nisl."
+		"title": "Design", 
+		"content": "The layout of the site was designed with simplicty and ease of access in mind, and attempts to drive users towards the membership and pledging sections. Custom CSS has ben writen to create a responsive layout so that the site works well on mobile devices."
+		}, {
+		"title": "Challenges", 
+		"content": "The main challenge in this project was integrating all the funtionalities requested by the client via the use of various plugins, including: Ultimate Member, WooCommerce, Social Media Integration. The site also contains functionality that allows members to easily register and pledge. The pledging is done by completing a form wich generates a prefilled engagement letter (this is done by integrating Google Forms and Google Docs) which is automatically e-mailed to the pledger."
 		}
 	],
 	"images": [{
 		"src": "../img/eg/eg-laptop_small.png",
-		"width": 681,
-		"height": 1024,
+		"width": 900,
+		"height": 600,
 		"aspectRatio": 1.5,
 		"lightboxImage":{
 			"src": "../img/eg/eg-laptop_large.png"
-		}
+			}
 		}, {
 		"src": "../img/eg/eg-mobile_small.png",
-		"width": 681,
-		"height": 1024,
+		"width": 900,
+		"height": 600,
 		"aspectRatio": 1.5,
 		"lightboxImage":{
 			"src": "../img/eg/eg-mobile_large.png"
-		}
+			}
+		}, {
+		"src": "../img/eg/concept-v1_small.jpg",
+		"width": 200,
+		"height": 200,
+		"aspectRatio": 1,
+		"lightboxImage":{
+			"src": "../img/eg/concept-v1.jpg",
+			"caption": "Initial concept - courtesy of Sophie Light"
+			}
+		}, {
+		"src": "../img/eg/concept-v2.jpg",
+		"width": 200,
+		"height": 200,
+		"aspectRatio": 0.3,
+		"lightboxImage":{
+			"src": "../img/eg/concept-v2.jpg",
+			"caption": "Initial concept - courtesy of Sophie Light"
+			}
 		}, {
 		"src": "../img/eg/eg-tablet_small.png",
-		"width": 681,
-		"height": 1024,
+		"width": 900,
+		"height": 600,
 		"aspectRatio": 1.5,
 		"lightboxImage":{
 			"src": "../img/eg/eg-tablet_large.png"
-		}
+			}
 		}
 	]
 }
