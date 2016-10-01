@@ -6,7 +6,7 @@ import styles from './styles/breadcrumbs.css';
 export default (props) => {
 	return(
 		<ul className={styles.breadcrumb} >
-			<li><Link to="/">Projects</Link></li>
+			<li><Link to="/projects">Projects</Link></li>
 			<li>{props.title}</li>
 		</ul>
 	);

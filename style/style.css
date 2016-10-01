@@ -123,3 +123,12 @@ a.text-link {
 a.text-link:hover {
     color: #ccbdbf!important
 }
+
+ul {
+    list-style-type: square;
+}
+
+ul li a{
+    text-decoration: underline!important;
+    color: #809bce!important;
+}

@@ -9,11 +9,11 @@ const renderDescription = (desc, URL) => {
 	return (
 		<div className={styles.overlayDescription}>
 			<p>{desc}</p>
-			<Link to={`/project/${URL}`}>
+			{URL ? <Link to={`/project/${URL}`}>
 				<div className="btn btn-blue">
-					Open Project
+					View More
 				</div>
-			</Link>
+			</Link> : ""}
 		</div>
 	);
 }

@@ -20,10 +20,10 @@
 	"splash": "../img/eg/eg-laptop_small.png",
 	"sections": [{
 		"title": "Overview", 
-		"content": "A platform designed to encourage entrepreneurs to pledge a percentage of their income to charity. The site is built around a customized WordPress theme, and revolves around creating a sense of community for people with a charitable interest."
+		"content": "A platform designed to encourage entrepreneurs to pledge a percentage of their income to charity. The site is built around a customized WordPress theme, and revolves around creating a community for people with a charitable interest."
 		}, {
 		"title": "Design", 
-		"content": "The layout of the site was designed with simplicty and ease of access in mind, and attempts to drive users towards the membership and pledging sections. Custom CSS has ben writen to create a responsive layout so that the site works well on mobile devices."
+		"content": "The layout of the site was designed with simplicty and ease of access in mind, and attempts to drive users towards the membership and pledging sections. Custom CSS has been writen to create a responsive layout so that the site works well on mobile devices."
 		}, {
 		"title": "Challenges", 
 		"content": "The main challenge in this project was integrating all the funtionalities requested by the client via the use of various plugins, including: Ultimate Member, WooCommerce, Social Media Integration. The site also contains functionality that allows members to easily register and pledge. The pledging is done by completing a form wich generates a prefilled engagement letter (this is done by integrating Google Forms and Google Docs) which is automatically e-mailed to the pledger."

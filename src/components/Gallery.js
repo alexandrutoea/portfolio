@@ -9,8 +9,8 @@ import Gallery from 'react-photo-gallery';
 export default class Galery extends React.Component {
     render() {
     return (
-    	<div>
-    	<h4> Selected images: </h4>
+    	<div className="gallery-component">
+    	{this.props.noTitle ? "" : <h4> Selected images: </h4>}
         <Gallery photos={this.props.photos} />
         </div>
     );

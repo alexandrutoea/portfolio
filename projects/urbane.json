@@ -10,14 +10,14 @@
 	],
 	"links": [{
 			"site": "Web",
-			"URL": "go-urbane.com"
+			"URL": "http://go-urbane.com"
 		}
 	],
 	"description": "URBANE is innovative mentoring platform, which helps companies train and retain a more connected workforce that is committed to their business strategy.",
 	"splash": "../img/urbane/urbane-mobile.png",
 	"sections": [{
 		"title": "Overview", 
-		"content": "This is a one page presentation site designed and built to present a product. The page is written from scratch using HTML and CSS, with loadspeed and simplicty in mind. The animations are done using the jQuery library."
+		"content": "This is a one page presentation site designed and built to showcase an app. The page is written from scratch using HTML and CSS, with loadspeed and simplicty in mind. The animations are done using the jQuery library."
 		}, {
 		"title": "Design", 
 		"content": "Keeping the message short and concise was very important for the owners, so the site is split into multiple sections that highlight various features of the product. Also since the site presents a mobile app, the layout is responsive and easy to use on mobile devices."

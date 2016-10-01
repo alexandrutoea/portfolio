@@ -39,7 +39,7 @@ class ProjectList extends Component {
 
 		return (
 			<div className="project-list-component">
-				<div className="title">List of projects</div>
+				<div className="title">Recent Projects</div>
 				
 				<div className="project-list">
 					{this.state.list.map((project) => {
