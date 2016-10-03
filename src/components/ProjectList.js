@@ -38,9 +38,7 @@ class ProjectList extends Component {
 		if (!this.state.loaded) { return <Loading />; }
 
 		return (
-			<div className="project-list-component">
-				<div className="title">Recent Projects</div>
-				
+			<div className="project-list-component">				
 				<div className="project-list">
 					{this.state.list.map((project) => {
 						return <ProjectBrief project={project} key={project.URL} />

@@ -1,0 +1,70 @@
+{
+	"title": "Portfolio",
+	"tags": [{
+			"title": "Type",
+			"vaules": ["WebSite"]
+		}, {
+			"title": "Used",
+			"vaules": ["React", "React Router", "Webpack"]
+		}, {
+			"title": "Learned",
+			"vaules": ["CSS/Style Loader", "React Motion"]
+		}
+	],
+	"links": [{
+			"site": "GitHub",
+			"URL": "https://github.com/alexandrutoea/portfolio"
+		}
+	],
+	"description": "This is a simple portfolio page build using React.js",
+	"splash": "../img/portfolio/tablet_large.png",
+	"sections": [{
+		"title": "Overview", 
+		"content": "The page is designed with simplicity in mind. The focus is put on presenting the projects showcased. Each project has a dedicated page which aims to present it in greater detail and also show the considerations and potential challenges encountered during development."
+		}, {
+		"title": "Reasoning", 
+		"content": "I have decided to use React for this project in order to further develop and improve my skills using this library. Also this has given me the opportunity to implement a modular design and create various elements that can be reused in different projects."
+		}, {
+		"title": "Challenges", 
+		"content": "The initial implementation of the Portfolio a single component held all the information about the projects. However I have quickly realized this method would put a lot of strain on the React Router methods to determine what to render. This also made content editing and adding new projects extremely difficult. To solve these problems I have decided to create a single component for displaying projects which loads a JSON file corresponding to the properties set by React Router. The <ProjectDetails /> component loads the JSON and displays the details of the corresponding project. While this leads to a bit longer load times (few extra ms to load the JSON), I have added page transition animations using React-Motion, which help fill up the loading times."
+		}, {
+		"title": "Future Plans", 
+		"content": "I intend to continue development of the Porftfolio over time. The next step would be to create a REST API that can automatically generate the required JSON files from a MongoDB database."
+		}
+	],
+	"images": [{
+		"src": "../img/portfolio/mobile_large.png",
+		"width": 1280,
+		"height": 850,
+		"aspectRatio": 1.5,
+		"lightboxImage":{
+			"src": "../img/portfolio/mobile_large.png"
+			}
+		}, {
+		"src": "../img/portfolio/tablet_large.png",
+		"width": 1280,
+		"height": 720,
+		"aspectRatio": 1.7,
+		"lightboxImage":{
+			"src": "../img/portfolio/tablet_large.png"
+			}
+		}, {
+		"src": "../img/portfolio/laptop_large.png",
+		"width": 1280,
+		"height": 720,
+		"aspectRatio": 1.7,
+		"lightboxImage":{
+			"src": "../img/portfolio/laptop_large.png",
+			"caption": "Initial concept - courtesy of Sophie Light"
+			}
+		}, {
+		"src": "../img/portfolio/portfolio-project.png",
+		"width": 1920,
+		"height": 2220,
+		"aspectRatio": 0.9,
+		"lightboxImage":{
+			"src": "../img/portfolio/portfolio-project.png"
+			}
+		}
+	]
+}

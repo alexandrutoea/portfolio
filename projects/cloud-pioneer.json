@@ -1,0 +1,68 @@
+{
+	"title": "Cloud Pioneer",
+	"tags": [{
+			"title": "Type",
+			"vaules": ["WebSite"]
+		}, {
+			"title": "Used",
+			"vaules": ["HTML", "CSS", "jQuery", "Google Apps"]
+		}
+	],
+	"description": "Cloud Pioneer was a one page site designed to showcase the services we offered as a Google Apps reseller.",
+	"splash": "../img/cloud-pioneer/eg-laptop_small.png",
+	"sections": [{
+		"title": "The Startup!", 
+		"content": "Together with a friend, I have started Cloud Pioneer to promote cloud based solutions and help small businesses to make this difficult transition. As CIO of the company, my main roles were doing the migrations and technical sales as well as making sure our website is kept up to date and always showcases the services we offer in a clear and understandable way."
+		}, {
+		"title": "Design", 
+		"content": "Together with our marketing advisor we have built a one page presentation site that served as a first contact point between us and potential customers. The page provided easy to understand explanations for both our services and the product we were selling (Google Apps)."
+		}, {
+		"title": "More", 
+		"content": "The page has been written from scratch using HTML and CSS, and all page transitions and effects have been implemented using jQuery. The color theme and additional artork is based on the Google colors to help solidify the identity of the company."
+		}
+	],
+	"images": [{
+		"src": "../img/cloud-pioneer/eg-laptop_small.png",
+		"width": 900,
+		"height": 600,
+		"aspectRatio": 1.5,
+		"lightboxImage":{
+			"src": "../img/cloud-pioneer/eg-laptop_large.png"
+			}
+		}, {
+		"src": "../img/cloud-pioneer/eg-mobile_small.png",
+		"width": 900,
+		"height": 600,
+		"aspectRatio": 1.5,
+		"lightboxImage":{
+			"src": "../img/cloud-pioneer/eg-mobile_large.png"
+			}
+		}, {
+		"src": "../img/cloud-pioneer/concept-v1_small.jpg",
+		"width": 200,
+		"height": 200,
+		"aspectRatio": 1,
+		"lightboxImage":{
+			"src": "../img/cloud-pioneer/concept-v1.jpg",
+			"caption": "Initial concept - courtesy of Sophie Light"
+			}
+		}, {
+		"src": "../img/cloud-pioneer/concept-v2.jpg",
+		"width": 200,
+		"height": 200,
+		"aspectRatio": 0.3,
+		"lightboxImage":{
+			"src": "../img/cloud-pioneer/concept-v2.jpg",
+			"caption": "Initial concept - courtesy of Sophie Light"
+			}
+		}, {
+		"src": "../img/cloud-pioneer/eg-tablet_small.png",
+		"width": 900,
+		"height": 600,
+		"aspectRatio": 1.5,
+		"lightboxImage":{
+			"src": "../img/cloud-pioneer/eg-tablet_large.png"
+			}
+		}
+	]
+}

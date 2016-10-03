@@ -1,15 +1,25 @@
 {
 "list":[
 		{
+			"URL": "portfolio", 
+			"title": "Portfolio", 
+			"description": "I have decided to create my portfolio using React which offers me the modularity required in a porftolio site and very good performance compared to a similar sized Wordpress pages.", 
+			"splash": "img/portfolio/tablet_large.png"
+		}, {
 			"URL": "eg", 
 			"title": "EG", 
-			"description": "Entrepreneurial Giving (EG) is a campaign and network to introduce entrepreneurs to the benefits of purpose in business. This is a long-term campaign to change the way we think about philanthropy.", 
+			"description": "Entrepreneurial Giving (EG) is a campaign and network to introduce entrepreneurs to the benefits of purpose in business.", 
 			"splash": "img/eg/eg-laptop_small.png"
 		}, {
 			"URL": "urbane", 
 			"title": "Urbane", 
 			"description": "URBANE is innovative mentoring platform, which helps companies train and retain a more connected workforce that is committed to their business strategy.", 
 			"splash": "img/urbane/urbane-mobile.png"
+		}, {
+			"URL": "cloud-pioneer", 
+			"title": "Cloud Pioneer", 
+			"description": "As Co-Founder and CIO of Cloud Pioneer, I ahve been tasked to build and maintain a website to present the services we provided as Google Apps Authorized Resellers.", 
+			"splash": "img/portfolio/tablet_large.png"
 		}
 	]
 }

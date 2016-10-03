@@ -13,9 +13,8 @@ export default (props) => {
 						<span className={styles.subtitle}> ~ Web Development & Design</span>
 					</Link>
 					<div className={styles.headerLinks}>
-						<Link to='/about' className={styles.headerLink}>About</Link>
-						<a className={styles.headerLink} href="#" target="_blank">Github</a>
-						<a className={styles.headerLink} href="#" target="_blank">LinkedIn</a>
+						<Link to='/about' className={styles.headerLink}>About & Contact</Link>
+						<a className={styles.headerLink} href="https://www.linkedin.com/in/alexandru-toea-49369088" target="_blank">LinkedIn</a>
 					</div>
 				</div>
 			</div>
