@@ -38,7 +38,9 @@ class ProjectList extends Component {
 		if (!this.state.loaded) { return <Loading />; }
 
 		return (
-			<div className="project-list-component">				
+			<div className="project-list-component">
+				<h4>Quick Notice: Page is in active development.</h4>
+				<p> I expect to finish it by the end of this week. So untill then there might be occasional bugs and issues!</p>				
 				<div className="project-list">
 					{this.state.list.map((project) => {
 						return <ProjectBrief project={project} key={project.URL} />
