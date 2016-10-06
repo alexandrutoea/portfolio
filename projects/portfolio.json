@@ -54,8 +54,7 @@
 		"height": 720,
 		"aspectRatio": 1.7,
 		"lightboxImage":{
-			"src": "../img/portfolio/laptop_large.png",
-			"caption": "Initial concept - courtesy of Sophie Light"
+			"src": "../img/portfolio/laptop_large.png"
 			}
 		}, {
 		"src": "../img/portfolio/portfolio-project.png",

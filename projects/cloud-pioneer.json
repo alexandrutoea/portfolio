@@ -9,7 +9,7 @@
 		}
 	],
 	"description": "Cloud Pioneer was a one page site designed to showcase the services we offered as a Google Apps reseller.",
-	"splash": "../img/cloud-pioneer/eg-laptop_small.png",
+	"splash": "../img/cloud-pioneer/placeholder1.jpg",
 	"sections": [{
 		"title": "The Startup!", 
 		"content": "Together with a friend, I have started Cloud Pioneer to promote cloud based solutions and help small businesses to make this difficult transition. As CIO of the company, my main roles were doing the migrations and technical sales as well as making sure our website is kept up to date and always showcases the services we offer in a clear and understandable way."
@@ -22,46 +22,44 @@
 		}
 	],
 	"images": [{
-		"src": "../img/cloud-pioneer/eg-laptop_small.png",
+		"src": "../img/cloud-pioneer/soon.png",
 		"width": 900,
 		"height": 600,
 		"aspectRatio": 1.5,
 		"lightboxImage":{
-			"src": "../img/cloud-pioneer/eg-laptop_large.png"
+			"src": "../img/cloud-pioneer/soon.png"
 			}
 		}, {
-		"src": "../img/cloud-pioneer/eg-mobile_small.png",
+		"src": "../img/cloud-pioneer/soon.png",
 		"width": 900,
 		"height": 600,
 		"aspectRatio": 1.5,
 		"lightboxImage":{
-			"src": "../img/cloud-pioneer/eg-mobile_large.png"
+			"src": "../img/cloud-pioneer/soon.png"
 			}
 		}, {
-		"src": "../img/cloud-pioneer/concept-v1_small.jpg",
+		"src": "../img/cloud-pioneer/soon.png",
 		"width": 200,
 		"height": 200,
 		"aspectRatio": 1,
 		"lightboxImage":{
-			"src": "../img/cloud-pioneer/concept-v1.jpg",
-			"caption": "Initial concept - courtesy of Sophie Light"
+			"src": "../img/cloud-pioneer/soon.png"
 			}
 		}, {
-		"src": "../img/cloud-pioneer/concept-v2.jpg",
+		"src": "../img/cloud-pioneer/soon.png",
 		"width": 200,
 		"height": 200,
 		"aspectRatio": 0.3,
 		"lightboxImage":{
-			"src": "../img/cloud-pioneer/concept-v2.jpg",
-			"caption": "Initial concept - courtesy of Sophie Light"
+			"src": "../img/cloud-pioneer/soon.png"
 			}
 		}, {
-		"src": "../img/cloud-pioneer/eg-tablet_small.png",
+		"src": "../img/cloud-pioneer/soon.png",
 		"width": 900,
 		"height": 600,
 		"aspectRatio": 1.5,
 		"lightboxImage":{
-			"src": "../img/cloud-pioneer/eg-tablet_large.png"
+			"src": "../img/cloud-pioneer/soon.png"
 			}
 		}
 	]
