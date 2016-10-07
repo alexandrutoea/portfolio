@@ -17,7 +17,7 @@
 		}
 	],
 	"description": "Entrepreneurial Giving (EG) is a campaign and network to introduce entrepreneurs to the benefits of purpose in business. This is a long-term campaign to change the way we think about philanthropy.",
-	"splash": "../img/eg/eg-laptop_small.png",
+	"splash": "../img/eg/laptop.jpg",
 	"sections": [{
 		"title": "Overview", 
 		"content": "A platform designed to encourage entrepreneurs to pledge a percentage of their income to charity. The site is built around a customized WordPress theme, and revolves around creating a community for people with a charitable interest."
@@ -30,20 +30,20 @@
 		}
 	],
 	"images": [{
-		"src": "../img/eg/eg-laptop_small.png",
+		"src": "../img/eg/laptop.jpg",
 		"width": 900,
 		"height": 600,
 		"aspectRatio": 1.5,
 		"lightboxImage":{
-			"src": "../img/eg/eg-laptop_large.png"
+			"src": "../img/eg/laptop.jpg"
 			}
 		}, {
-		"src": "../img/eg/eg-mobile_small.png",
+		"src": "../img/eg/mobile.jpg",
 		"width": 900,
 		"height": 600,
 		"aspectRatio": 1.5,
 		"lightboxImage":{
-			"src": "../img/eg/eg-mobile_large.png"
+			"src": "../img/eg/mobile.jpg"
 			}
 		}, {
 		"src": "../img/eg/concept-v1_small.jpg",
@@ -64,12 +64,12 @@
 			"caption": "Initial concept - courtesy of Sophie Light"
 			}
 		}, {
-		"src": "../img/eg/eg-tablet_small.png",
-		"width": 900,
+		"src": "../img/eg/tablet.jpg",
+		"width": 912,
 		"height": 600,
 		"aspectRatio": 1.5,
 		"lightboxImage":{
-			"src": "../img/eg/eg-tablet_large.png"
+			"src": "../img/eg/tablet.jpg"
 			}
 		}
 	]

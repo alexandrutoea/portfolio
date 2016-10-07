@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router';
 
+import Hero from './Hero';
 import Sections from './Sections';
 import Gallery from './Gallery';
 
@@ -17,36 +18,44 @@ const about= [{
 		}];
 
 const images = [{
-		"src": "../img/urbane/laptop-phone_small.jpg",
+		"src": "../img/urbane/laptop-phone.jpg",
 		"width": 960,
 		"height": 630,
 		"aspectRatio": 1.7,
 		"lightboxImage":{
-			"src": "../img/urbane/laptop-phone_large.jpg"
+			"src": "../img/urbane/laptop-phone.jpg"
 			}
 		}, {
-		"src": "../img/urbane/tablet_small.jpg",
-		"width": 960,
-		"height": 640,
+		"src": "../img/eg/tablet.jpg",
+		"width": 912,
+		"height": 608,
 		"aspectRatio": 1.4,
 		"lightboxImage":{
-			"src": "../img/urbane/tablet_large.jpg"
+			"src": "../img/eg/tablet.jpg"
 			}
 		}, {
-		"src": "../img/urbane/urbane-full.png",
-		"width": 1380,
-		"height": 4200,
-		"aspectRatio": 0.3,
+		"src": "../img/portfolio/portfolio-project.jpg",
+		"width": 1920,
+		"height": 2220,
+		"aspectRatio": 0.9,
 		"lightboxImage":{
-			"src": "../img/urbane/urbane-full.png"
+			"src": "../img/portfolio/portfolio-project.jpg"
 			}
 		}, {
-		"src": "../img/urbane/urbane-mobile-menu_small.png",
+		"src": "../img/urbane/menu.jpg",
 		"width": 900,
 		"height": 600,
 		"aspectRatio": 1.5,
 		"lightboxImage":{
-			"src": "../img/urbane/urbane-mobile-menu_large.png"
+			"src": "../img/urbane/menu.jpg"
+			}
+		}, {
+		"src": "../img/eg/laptop.jpg",
+		"width": 912,
+		"height": 600,
+		"aspectRatio": 1.5,
+		"lightboxImage":{
+			"src": "../img/eg/laptop.jpg"
 			}
 		}
 	];
@@ -56,14 +65,7 @@ export default (props) => {
 	return(
 		<div className="about-component">
 
-			<div className={styles.hero}>
-				<div className={styles.heroImageWrap}>
-					<img className={styles.heroImage} src="img/me_wide.jpg" alt="Skills"/>
-					<div className={styles.heroImageOverlay}>
-						<div className={styles.overlayTitle}>Hello</div>
-					</div>
-				</div>
-			</div>
+			<Hero img="img/me_wide.jpg" alt="hello">Hello</Hero>
 
 			<Sections sections={intro} />
 			<Sections sections={about} />

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Favicon from 'react-favicon';
 
 import routes from '../routes';
 import Header from './Header';
@@ -11,6 +12,7 @@ export default class App extends Component {
   render() {
     return (
     	<div className={styles.app}>
+    		<Favicon url={["img/favicon.ico"]}/>
 			<Header />
 			<RouteHandler>{this.props.children}</RouteHandler>
 			<Footer />

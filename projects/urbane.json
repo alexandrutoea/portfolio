@@ -14,7 +14,7 @@
 		}
 	],
 	"description": "URBANE is innovative mentoring platform, which helps companies train and retain a more connected workforce that is committed to their business strategy.",
-	"splash": "../img/urbane/urbane-mobile.png",
+	"splash": "../img/urbane/urbane-mobile.jpg",
 	"sections": [{
 		"title": "Overview", 
 		"content": "This is a one page presentation site designed and built to showcase an app. The page is written from scratch using HTML and CSS, with loadspeed and simplicty in mind. The animations are done using the jQuery library."
@@ -24,36 +24,36 @@
 		}
 	],
 	"images": [{
-		"src": "../img/urbane/laptop-phone_small.jpg",
+		"src": "../img/urbane/laptop-phone.jpg",
 		"width": 960,
 		"height": 630,
 		"aspectRatio": 1.7,
 		"lightboxImage":{
-			"src": "../img/urbane/laptop-phone_large.jpg"
+			"src": "../img/urbane/laptop-phone.jpg"
 			}
 		}, {
-		"src": "../img/urbane/tablet_small.jpg",
+		"src": "../img/urbane/tablet.jpg",
 		"width": 960,
 		"height": 640,
 		"aspectRatio": 1.4,
 		"lightboxImage":{
-			"src": "../img/urbane/tablet_large.jpg"
+			"src": "../img/urbane/tablet.jpg"
 			}
 		}, {
-		"src": "../img/urbane/urbane-full.png",
+		"src": "../img/urbane/urbane-full.jpg",
 		"width": 1380,
 		"height": 4200,
 		"aspectRatio": 0.3,
 		"lightboxImage":{
-			"src": "../img/urbane/urbane-full.png"
+			"src": "../img/urbane/urbane-full.jpg"
 			}
 		}, {
-		"src": "../img/urbane/urbane-mobile-menu_small.png",
+		"src": "../img/urbane/menu.jpg",
 		"width": 900,
 		"height": 600,
 		"aspectRatio": 1.5,
 		"lightboxImage":{
-			"src": "../img/urbane/urbane-mobile-menu_large.png"
+			"src": "../img/urbane/menu.jpg"
 			}
 		}
 	]

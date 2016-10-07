@@ -4,6 +4,7 @@ import axios from 'axios';
 
 import Breadcrumbs from './Breadcrumbs';
 import Tags from './Tags';
+import Hero from './Hero';
 import Sections from './Sections';
 import Gallery from './Gallery';
 import Loading from './Loading';
@@ -60,15 +61,8 @@ class ProjectDetails extends Component {
 					<Tags tags={project.tags} links={project.links? project.links : null} />
 
 					<p>{project.description}</p>
-											
-					<div className={styles.hero}>
-						<div className={styles.heroImageWrap}>
-							<img className={styles.heroImage} src={project.splash} alt={project.title}/>
-							<div className={styles.heroImageOverlay}>
-								<div className={styles.overlayTitle}>{project.title}</div>
-							</div>
-						</div>
-					</div>
+
+					<Hero img={project.splash} alt={project.title}>{project.title}</Hero>
 
 					<Sections sections={project.sections} />
 

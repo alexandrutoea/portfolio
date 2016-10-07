@@ -1,18 +1,13 @@
 import React from 'react';
 
+import Hero from './Hero';
+
 import styles from './styles/project-details.css';
 
 export default (props) => {
 	return(
 		<div className="skills-component">
-			<div className={styles.hero}>
-				<div className={styles.heroImageWrap}>
-					<img className={styles.heroImage} src="img/keyboard_wide.jpg" alt="Skills"/>
-					<div className={styles.heroImageOverlay}>
-						<div className={styles.overlayTitle}>Skills</div>
-					</div>
-				</div>
-			</div>
+			<Hero img="img/keyboard_wide.jpg" alt="Skills"> Skills </Hero>
 			
 			<h4>WEB DEVELOPMENT</h4>
 			<ul>

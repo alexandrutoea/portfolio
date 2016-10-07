@@ -17,7 +17,7 @@
 		}
 	],
 	"description": "This is a simple portfolio page build using React.js",
-	"splash": "../img/portfolio/tablet_large.png",
+	"splash": "../img/portfolio/tablet.jpg",
 	"sections": [{
 		"title": "Overview", 
 		"content": "The page is designed with simplicity in mind. The focus is put on presenting the projects showcased. Each project has a dedicated page which aims to present it in greater detail and also show the considerations and potential challenges encountered during development."
@@ -33,36 +33,36 @@
 		}
 	],
 	"images": [{
-		"src": "../img/portfolio/mobile_large.png",
+		"src": "../img/portfolio/mobile.jpg",
 		"width": 1280,
 		"height": 850,
 		"aspectRatio": 1.5,
 		"lightboxImage":{
-			"src": "../img/portfolio/mobile_large.png"
+			"src": "../img/portfolio/mobile.jpg"
 			}
 		}, {
-		"src": "../img/portfolio/tablet_large.png",
+		"src": "../img/portfolio/tablet.jpg",
 		"width": 1280,
 		"height": 720,
 		"aspectRatio": 1.7,
 		"lightboxImage":{
-			"src": "../img/portfolio/tablet_large.png"
+			"src": "../img/portfolio/tablet.jpg"
 			}
 		}, {
-		"src": "../img/portfolio/laptop_large.png",
+		"src": "../img/portfolio/laptop.jpg",
 		"width": 1280,
 		"height": 720,
 		"aspectRatio": 1.7,
 		"lightboxImage":{
-			"src": "../img/portfolio/laptop_large.png"
+			"src": "../img/portfolio/laptop.jpg"
 			}
 		}, {
-		"src": "../img/portfolio/portfolio-project.png",
+		"src": "../img/portfolio/portfolio-project.jpg",
 		"width": 1920,
 		"height": 2220,
 		"aspectRatio": 0.9,
 		"lightboxImage":{
-			"src": "../img/portfolio/portfolio-project.png"
+			"src": "../img/portfolio/portfolio-project.jpg"
 			}
 		}
 	]
